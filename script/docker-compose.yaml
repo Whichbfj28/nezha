@@ -2,7 +2,7 @@ version: "3.3"
 
 services:
   dashboard:
-    image: ghcr.io/naiba/nezha-dashboard
+    image: ghcr.io/naiba/nezha-dashboard@sha256:b5bed02fb90fa2bc0fcde1b230650b20281ee75310d05ab26797b6963e59d533
     restart: always
     volumes:
       - ./data:/dashboard/data
